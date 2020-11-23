@@ -116,9 +116,9 @@ function watchJS() {
 function browserSync(done) {
   browsersync.init({
     proxy: localUrl, // Change this value to match your local URL.
-    socket: {
-      domain: 'localhost:3000'
-    }
+    // socket: {
+    //   domain: 'localhost:3000'
+    // }
   });
   done();
 }
