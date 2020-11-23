@@ -1,4 +1,4 @@
-<?php include("includes/a_config.php");?>
+<?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html class="no-js" lang="">
 <html lang="en">
@@ -17,16 +17,17 @@
 </head>
 
 <body>
-  <?php include("includes/header.php");?>
-
-  <div>
-    <br><div>Welcome to my website!</div><br>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta odio aperiam distinctio molestiae? Officiis quam exercitationem repellendus sapiente odit corrupti quod officia quidem, perferendis animi numquam voluptatum? Sit, iusto nulla!
-    Corrupti voluptatem unde illo totam, doloremque eligendi ex sequi laudantium possimus libero ullam labore cupiditate enim quaerat in minus neque laborum atque quia voluptas ducimus? A molestias doloribus tempora soluta.
-    Commodi atque deserunt rerum, iure delectus necessitatibus sequi ipsam tempore, voluptatibus odio fuga maiores sapiente temporibus suscipit repellendus aperiam perferendis architecto vitae distinctio fugit, earum dolorem beatae totam? Quia, deleniti?</div>
-  </div>
-
-  <?php include("includes/footer.php");?>
+  <div class="page">
+    <?php include("includes/header.php");?>
+    <main>
+      <br><div>Welcome to my website!</div><br>
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta odio aperiam distinctio molestiae? Officiis quam exercitationem repellendus sapiente odit corrupti quod officia quidem, perferendis animi numquam voluptatum? Sit, iusto nulla!
+      Corrupti voluptatem unde illo totam, doloremque eligendi ex sequi laudantium possimus libero ullam labore cupiditate enim quaerat in minus neque laborum atque quia voluptas ducimus? A molestias doloribus tempora soluta.
+      Commodi atque deserunt rerum, iure delectus necessitatibus sequi ipsam tempore, voluptatibus odio fuga maiores sapiente temporibus suscipit repellendus aperiam perferendis architecto vitae distinctio fugit, earum dolorem beatae totam? Quia, deleniti?
+      </div>
+    </main>
+    <?php include("includes/footer.php");?>
+    </div>
 </body>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

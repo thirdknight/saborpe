@@ -1,16 +1,10 @@
-<section class="section is-full-height">
-  <div class="header-head">
-    <div class="container">
-      <header class="nav">
-        <div class="branding-logo">
-          <a href="./" class="logo">Saborpe</a>
-        </div>
-        <div class="nav-togge"></div>
-        <div class="nav-menu"></div>
-      </header>
+<header class="main-header is-full-height">
+  <div class="main-header-head">
+    <?php include("includes/navigation.php"); ?>
+    <div class="main-header-body">
+      <div class="container">
+        <h2 class="title">La mejor comida casea está aqui</h2>
+      </div>
     </div>
   </div>
-  
-  <div class="header-body">
-  </div>
-</section>
+</header>

@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap');
 
 $ft-body: 'Montserrat', sans-serif;
-$ft-title:'Pacifico', cursive;
+$ft-heading:'Pacifico', cursive;
 
 body {
   font-family: $ft-body;
+  // font-weight: 300;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $ft-heading;
+  margin-top: 0;
+}
+
+
+
 
 $fontastic-font-directory-path: '../assets/fonts/fontastic/' !default;
 $fontastic-font-file-name: 'fontastic' !default;

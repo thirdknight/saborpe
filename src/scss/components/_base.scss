@@ -1,7 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
 html,
 body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background-color : orange;
+}
+body {
+  background-color: $white;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+a {
+  color: $darkred;
+  transition: color .3s linear;
+  &:hover {
+    color:#5c4275;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 auto;
+  position: relative;
+  width: 100%;
+  background-color: pink;
+  @media screen and(min-width: 768px) {
+    max-width: 708px;
+    background-color: yellow;
+  }
+  @media screen and(min-width: 1084px) {
+    max-width: 1024px;
+    background-color: orange;
+  }
+  @media screen and(min-width: 1920px) {
+    max-width: 1860px;
+    background-color: $red;
+  }
 }
