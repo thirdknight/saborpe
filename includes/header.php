@@ -1,10 +1,10 @@
-<header class="main-header is-full-height">
+<header class="main-header hero is-full-height">
   <div class="main-header-head">
     <?php include("includes/navigation.php"); ?>
-    <div class="main-header-body">
+  </div>
+  <div class="main-header-body">
       <div class="container">
-        <h2 class="title">La mejor comida casea está aqui</h2>
+        <div class="header-text"><p>La mejor comida casea está aqui</p></div>
       </div>
     </div>
-  </div>
 </header>

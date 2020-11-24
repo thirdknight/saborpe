@@ -1,0 +1,38 @@
+.main-header {
+  background-image: url(../assets//images/banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.is-full-height {
+  min-height: 50vh;
+  @media screen and (min-width: 768px) {
+    min-height: 75vh;
+  }  
+}
+.main-header-head {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.main-header-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 40px 20px;
+}
+.header-text {
+  color: $white;
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}

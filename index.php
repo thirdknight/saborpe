@@ -12,8 +12,8 @@
   <meta property="og:image" content="">
   <link rel="apple-touch-icon" href="icon.png">
   <link href="build/css/styles.css" rel="stylesheet">
-  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-  <title>html Boilerplate Edi</title>
+  <!-- <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon"> -->
+  <title>Saborpe</title>
 </head>
 
 <body>
