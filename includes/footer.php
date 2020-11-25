@@ -10,12 +10,11 @@
         <div class="footer-social-links">
           <h2>Siguenos en nuestras redes</h2>
           <p><a href="" class="icon-facebook">Facebook</a></p>
-          <p><a href="" class="icon-twitter">Twitter</a></p>
-          <p><a href="" class="icon-youtube">Youtube</a></p>
+          <p><a href="" class="icon-instagram">Instagram</a></p>
         </div>
       </div>
       <p class = "copyright">
-        &copy Saborpe <?php print date("Y"); ?>. Todos los derechos reservados; 
+        &copy Saborpe <?php print date("Y"); ?>. Todos los derechos reservados. 
       </p>
     </div>
   </footer>
