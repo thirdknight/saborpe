@@ -15,12 +15,21 @@
     min-height: 70vh;
   }  
 }
+.branding-logo {
+  width: 100%;
+}
 .main-header-head {
   background-color: transparent;
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 1;
+  #nav-menu {
+    @include hidden; 
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
+  }
 }
 .main-header-body {
   display: flex;
@@ -35,4 +44,14 @@
   line-height: 1.4;
   font-weight: 500;
   letter-spacing: 0.1em;
+}
+
+.main-footer {
+  background-color: $black;
+  color: $white;
+}
+.saborpe-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
