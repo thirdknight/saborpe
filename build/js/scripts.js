@@ -12,7 +12,7 @@
   \***************************/
 /*! no exports provided */function(e,t,n){"use strict";n.r(t);const r=new(n(/*! ./components/test */"./src/js/components/test.js").default)("Edinson is Software Enginure from Microsof",40);console.log(r.getInfo())},0:
 /*!****************************************************************************************!*\
-  !*** multi ./src/js/scripts.js ./src/js/base/variables.js ./src/js/components/test.js ***!
+  !*** multi ./src/js/scripts.js ./src/js/components/test.js ./src/js/base/variables.js ***!
   \****************************************************************************************/
-/*! no static exports found */function(e,t,n){n(/*! /Users/edinson/Sites/saborpe/src/js/scripts.js */"./src/js/scripts.js"),n(/*! /Users/edinson/Sites/saborpe/src/js/base/variables.js */"./src/js/base/variables.js"),e.exports=n(/*! /Users/edinson/Sites/saborpe/src/js/components/test.js */"./src/js/components/test.js")}});
+/*! no static exports found */function(e,t,n){n(/*! /Users/edinson/Sites/saborpe/src/js/scripts.js */"./src/js/scripts.js"),n(/*! /Users/edinson/Sites/saborpe/src/js/components/test.js */"./src/js/components/test.js"),e.exports=n(/*! /Users/edinson/Sites/saborpe/src/js/base/variables.js */"./src/js/base/variables.js")}});
 //# sourceMappingURL=../sourcemaps/scripts.js.map
