@@ -23,20 +23,7 @@
     <main>
       <?php include("includes/section-banner.php");?>
       <?php include("includes/section-description.php");?>
-      <div class="section">
-        <div class="container">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="build/assets/images/plate1.jpg"></div>
-            <div class="swiper-slide"><img src="build/assets/images/plate2.jpg"></div>
-            <div class="swiper-slide"><img src="build/assets/images/plate3.jpg"></div>
-            <div class="swiper-slide"><img src="build/assets/images/plate4.jpg"></div>
-            <div class="swiper-slide"><img src="build/assets/images/plate1.jpg"></div>
-            <div class="swiper-slide"><img src="build/assets/images/plate2.jpg"></div>
-          </div>
-      </div>
-        </div>
-      </div>
+      <?php include("includes/section-slider.php");?>
       
     </main>
     <?php include("includes/footer.php");?>
