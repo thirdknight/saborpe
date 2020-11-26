@@ -59,3 +59,41 @@ ul, nav {
     // background-color: $red;
   }
 }
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.section {
+  margin-bottom: 24px;
+  @media screen and(min-width: 768px) {
+    margin-bottom: 56px;
+  }
+  @media screen and(min-width: 1084px) {
+    margin-bottom: 84px;
+  }
+}
+.section-banner {
+  background-color: $lighterred;
+  color: $white;
+  padding: 24px 0;
+  text-align: center;
+  @media screen and(min-width: 768px) {
+    padding: 40px;
+  }
+  @media screen and(min-width: 1084px) {
+    padding: 56px;
+  }
+}
+.column {
+  width: 100%;
+}
+.column-50 {
+  @media screen and(min-width: 768px) {
+    width: 47%;
+  }
+}
+.title {
+  font-size: 2em;
+}

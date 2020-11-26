@@ -20,11 +20,8 @@
   <div class="page">
     <?php include("includes/header.php");?>
     <main>
-      <br><div>Welcome to my website!</div><br>
-      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta odio aperiam distinctio molestiae? Officiis quam exercitationem repellendus sapiente odit corrupti quod officia quidem, perferendis animi numquam voluptatum? Sit, iusto nulla!
-      Corrupti voluptatem unde illo totam, doloremque eligendi ex sequi laudantium possimus libero ullam labore cupiditate enim quaerat in minus neque laborum atque quia voluptas ducimus? A molestias doloribus tempora soluta.
-      Commodi atque deserunt rerum, iure delectus necessitatibus sequi ipsam tempore, voluptatibus odio fuga maiores sapiente temporibus suscipit repellendus aperiam perferendis architecto vitae distinctio fugit, earum dolorem beatae totam? Quia, deleniti?
-      </div>
+      <?php include("includes/section-banner.php");?>
+      <?php include("includes/section-description.php");?>
     </main>
     <?php include("includes/footer.php");?>
     </div>
