@@ -11,18 +11,17 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
   <link rel="apple-touch-icon" href="icon.png">
-  <link href="css/styles.css" rel="stylesheet">
+  <link href="build/css/styles.css" rel="stylesheet">
   <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
   <title>html Boilerplate Edi</title>
 </head>
 
 <body>
-  <?php include("includes/header.php");?>
-  <?php include("includes/navigation.php");?>
-
-  <br><div>About</div><br>
-  
-  <?php include("includes/footer.php");?>
+  <div class="page">
+    <?php include("includes/header.php");?>
+    <br><div>About</div><br>
+    <?php include("includes/footer.php");?>
+  </div>
 </body>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

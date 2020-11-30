@@ -13,13 +13,16 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link href="css/styles.css" rel="stylesheet">
   <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link href="build/css/styles.css" rel="stylesheet">
   <title>html Boilerplate Edi</title>
 </head>
 
 <body>
-  <?php include("includes/header.php");?>
-  <div><br>Gallery<br></div>
-  <?php include("includes/footer.php");?>
+  <div class="page">
+    <?php include("includes/header.php");?>
+    <div><br>Gallery<br></div>
+    <?php include("includes/footer.php");?>
+  </div>
 </body>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
