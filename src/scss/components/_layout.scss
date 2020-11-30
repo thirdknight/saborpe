@@ -56,6 +56,15 @@
   color: $white;
   font-size: 0.8em;
 }
+.main-footer [class*="icon-"] {
+  color: $white;
+  text-decoration: none;
+  &::before {
+    position: relative;
+    top: 2px;
+    right: 5px;
+  }
+}
 .saborpe-footer {
   display: flex;
   flex-wrap: wrap;

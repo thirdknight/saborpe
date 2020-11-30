@@ -9,8 +9,8 @@
         </div>
         <div class="footer-social-links">
           <h2>Siguenos en nuestras redes</h2>
-          <p><a href="" class="icon-facebook">Facebook</a></p>
-          <p><a href="" class="icon-instagram">Instagram</a></p>
+          <p><a href="https://www.facebook.com/Comida-Peruana-1453286358248911" target="_blank" class="icon-facebook">Facebook</a></p>
+          <p><a href="https://www.instagram.com/explore/tags/comidaperuana/" target="_blank"class="icon-instagram">Instagram</a></p>
         </div>
       </div>
       <p class = "copyright">
