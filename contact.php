@@ -18,9 +18,10 @@
 
 <body>
   <div class="page">
-    <?php include("includes/header.php");?>
-    <div><br>Contact<br></div>
-  <?php include("includes/footer.php");?>
+    <section id="contact" class="main-header hero is-full-height">
+      <?php include("includes/header.php");?>
+    </section>
+    <?php include("includes/footer.php");?>
   </div>
 </body>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

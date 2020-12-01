@@ -1,6 +1,6 @@
 //Header
 .main-header {
-  background-image: url(../assets/images/banner.jpg);
+  // background-image: url(../assets/images/banner.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,8 +12,10 @@
 }
 .is-full-height {
   min-height: 50vh;
+  margin-bottom: 20px;
   @media screen and (min-width: 768px) {
     min-height: 70vh;
+    margin-bottom: 40px;
   }  
 }
 .branding-logo {
@@ -52,6 +54,65 @@
 }
 
 //main
+.gallery {
+  h2 {
+    text-align: center;
+    font-size: 2.2em;
+  }
+}
+.gallery-img {
+  object-fit: cover;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.gallery-img-big {
+  height: 350px;
+}
+.gallery-img-small {
+  height: 150px;
+}
+.popup {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  display: none;
+}
+.popup-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.popup-img {
+  width: 50%;
+}
+.popup-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #de423a;
+  font-size: 2.5em;
+  text-align: center;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+.popup-open {
+  display: block;
+}
 
 //footer
 .main-footer {
@@ -70,10 +131,17 @@
   }
 }
 .saborpe-footer {
+  width: 100%;
+  max-width: 900px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 30px 0;
+  .footer-contact,
+  .schedule,
+  .footer-social-links {
+    padding-left: 10px
+  }
 }
 .copyright {
   display: flex;

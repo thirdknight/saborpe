@@ -19,7 +19,9 @@
 
 <body>
   <div class="page">
-    <?php include("includes/header.php");?>
+    <section id="home" class="main-header hero is-full-height">
+      <?php include("includes/header.php");?>
+    </section>
     <main>
       <?php include("includes/section-banner.php");?>
       <?php include("includes/section-description.php");?>
@@ -27,7 +29,7 @@
       
     </main>
     <?php include("includes/footer.php");?>
-    </div>
+  </div>
 </body>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
