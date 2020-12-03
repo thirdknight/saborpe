@@ -29,7 +29,7 @@
     </section>
     <main>
       <div class="gallery">
-        <h2>Nuestra Galeria</h2>
+        <h2 class="title">Nuestra Galeria</h2>
         <div class="container container-flex ">
           <div class="column column-25">
             <img src="build/assets/images/gallery/g1.jpg" alt="g1" class="gallery-img gallery-img-big">

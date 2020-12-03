@@ -22,11 +22,11 @@
       <?php include("includes/header.php");?>
     </section>
     <section class="contact">
-      <h2>Contáctenos</h2>
+      <h2 class="title">Contáctenos</h2>
       <div class="container container-flex">
         <div class="contact-information  formular column column-50">
           <h3>Informacion de Contacto</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nulla non vero, eligendi eius reiciendis illum tempora veritatis quaerat facilis, dignissimos perspiciatis suscipit impedit voluptates in esse. Fuga, eveniet perferendis.Consequatur, laborum quos ut a consectetur inventore dolor, distinctio maiores cupiditate repellendus aut consequuntur et at vel eligendi sed facere. Ut maiores facere veniam neque in ab reiciendis similique ipsum.
+          <p>Si desea más información sobre nuestras ofertas no dude en contactarnos por cualquiera de estos medios. Nuestro equipo estara encantado de responder sus preguntas.
           </p>
           <p><span class="icon-phone"></span>Telefono1 : 8999900000</p>
           <p><span class="icon-location"></span>Urb. Los Santos 234 Lima 14, Peru</p>

@@ -10,7 +10,7 @@
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link href="build/css/styles.css" rel="stylesheet">
   <!-- <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon"> -->

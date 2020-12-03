@@ -5,7 +5,7 @@
         <div class="footer-contact">
           <p class="icon-mail">contacto@prometa.com</p>
           <p class="icon-phone">Telefono: 4954921 - 992523103</p>
-          <p class="icon-location">Pedro Ruiz Gallo 14600, Eten Peru</p>
+          <p class="icon-location">Urb. Los Santos 234 Lima 14, Peru</p>
         </div>
         <div class="schedule">
           <p>Horarios de atención</p>
