@@ -20,7 +20,7 @@
   \**************************/
 /*! no static exports found */function(e,r){new Swiper(".swiper-container",{effect:"coverflow",grabCursor:!0,centeredSlides:!0,slidesPerView:"auto",coverflowEffect:{rotate:50,stretch:0,depth:200,modifier:1,slideShadows:!0},loop:!0,autoplay:{delay:3e3,disableOnInteraction:!1}})},0:
 /*!*****************************************************************************************************************************!*\
-  !*** multi ./src/js/popup.js ./src/js/scripts.js ./src/js/slider.js ./src/js/base/variables.js ./src/js/components/test.js ***!
+  !*** multi ./src/js/popup.js ./src/js/scripts.js ./src/js/slider.js ./src/js/components/test.js ./src/js/base/variables.js ***!
   \*****************************************************************************************************************************/
-/*! no static exports found */function(e,r,t){t(/*! /Users/edinson/Sites/saborpe/src/js/popup.js */"./src/js/popup.js"),t(/*! /Users/edinson/Sites/saborpe/src/js/scripts.js */"./src/js/scripts.js"),t(/*! /Users/edinson/Sites/saborpe/src/js/slider.js */"./src/js/slider.js"),t(/*! /Users/edinson/Sites/saborpe/src/js/base/variables.js */"./src/js/base/variables.js"),e.exports=t(/*! /Users/edinson/Sites/saborpe/src/js/components/test.js */"./src/js/components/test.js")}});
+/*! no static exports found */function(e,r,t){t(/*! /Users/edinson/Sites/saborpe/src/js/popup.js */"./src/js/popup.js"),t(/*! /Users/edinson/Sites/saborpe/src/js/scripts.js */"./src/js/scripts.js"),t(/*! /Users/edinson/Sites/saborpe/src/js/slider.js */"./src/js/slider.js"),t(/*! /Users/edinson/Sites/saborpe/src/js/components/test.js */"./src/js/components/test.js"),e.exports=t(/*! /Users/edinson/Sites/saborpe/src/js/base/variables.js */"./src/js/base/variables.js")}});
 //# sourceMappingURL=../sourcemaps/scripts.js.map

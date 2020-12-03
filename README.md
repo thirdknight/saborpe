@@ -13,3 +13,6 @@
   npm i -D  gulp-babel webpack-stream @babel/core @babel/preset-env
   npm i -D gulp-plumber
   npm i -D browser-sync 
+
+Frontend:
+- Generate icon: https://favicon.io/favicon-generator/
