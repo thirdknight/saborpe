@@ -1,7 +1,7 @@
 button, .btn {
   border: none;
-  background-color: $red;
-  color: $black;
+  background-color: $lighterred;
+  color: $white;
   padding: 10px 14px;
   cursor: pointer;
   font-size: 13px;
@@ -10,11 +10,4 @@ button, .btn {
     background-color: $lighterred;
   }
 }
-
- .btn-prev, .bth-next {
-   position: relative;
-   margin-right: 6px;
-   margin-top: -8px;
-   z-index: 8;
- }
  

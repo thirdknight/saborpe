@@ -31,19 +31,19 @@
       <div class="gallery">
         <h2>Nuestra Galeria</h2>
         <div class="container container-flex ">
-          <div class="column">
+          <div class="column column-25">
             <img src="build/assets/images/gallery/g1.jpg" alt="g1" class="gallery-img gallery-img-big">
             <img src="build/assets/images/gallery/g2.jpg" alt="g2" class="gallery-img gallery-img-small">
           </div>
-          <div class="column">
+          <div class="column column-25">
             <img src="build/assets/images/gallery/g3.jpg" alt="g3" class="gallery-img gallery-img-small">
             <img src="build/assets/images/gallery/g4.jpg" alt="g4" class="gallery-img gallery-img-big">
           </div>
-          <div class="column">
+          <div class="column column-25">
             <img src="build/assets/images/gallery/g5.jpg" alt="g5" class="gallery-img gallery-img-big">
             <img src="build/assets/images/gallery/g6.jpg" alt="g5" class="gallery-img gallery-img-small">
           </div>
-          <div class="column">
+          <div class="column column-25">
             <img src="build/assets/images/gallery/g7.jpg" alt="g7" class="gallery-img gallery-img-small">
             <img src="build/assets/images/gallery/g8.jpg" alt="g8" class="gallery-img gallery-img-big">
           </div>
@@ -58,6 +58,5 @@
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="build/js/scripts.js"></script>
 </html>

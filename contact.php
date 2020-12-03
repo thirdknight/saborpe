@@ -21,6 +21,30 @@
     <section id="contact" class="main-header hero is-full-height">
       <?php include("includes/header.php");?>
     </section>
+    <section class="contact">
+      <h2>Contáctenos</h2>
+      <div class="container container-flex">
+        <div class="contact-information  formular column column-50">
+          <h3>Informacion de Contacto</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nulla non vero, eligendi eius reiciendis illum tempora veritatis quaerat facilis, dignissimos perspiciatis suscipit impedit voluptates in esse. Fuga, eveniet perferendis.Consequatur, laborum quos ut a consectetur inventore dolor, distinctio maiores cupiditate repellendus aut consequuntur et at vel eligendi sed facere. Ut maiores facere veniam neque in ab reiciendis similique ipsum.
+          </p>
+          <p><span class="icon-phone"></span>Telefono1 : 8999900000</p>
+          <p><span class="icon-location"></span>Urb. Los Santos 234 Lima 14, Peru</p>
+          <p><span class="icon-mail"></span>consultas@saborpe.com</p>
+        </div>
+        <form action="enviar-prueba.php" method="post" class="formular column column-50">
+           <label for="" class="formular-label">Nombre:</label>
+           <input type="text" class="formular-input-txt" name="nombre">
+           <label for="" class="formular-label">Correo:</label>
+           <input type="text" class="formular-input-txt" name="correo">
+           <label for="" class="formular-label">Telefono:</label>
+           <input type="text" class="formular-input-txt" name="telefono">
+           <label for="" class="formular-label">Mensaje:</label>
+           <textarea name="mensaje" id="" cols="30" rows="10" class="formular-textarea"></textarea>
+           <input type="submit" class="btn formular-btn " value="Enviar">
+        </form>
+      </div>
+    </section>
     <?php include("includes/footer.php");?>
   </div>
 </body>

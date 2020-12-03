@@ -20,10 +20,6 @@ a {
   text-decoration: none;
   color: $white;
   transition: color .3s linear;
-  // &:hover {
-  //   padding: 0;
-  //   border-bottom: 3px solid red;
-  // }
 }
 img {
   width: 100%;
@@ -61,16 +57,13 @@ ul, nav {
   position: relative;
   width: 100%;
   @media screen and(min-width: 768px) {
-    max-width: 708px;
-    // background-color: yellow;
+    max-width: 768px;
   }
   @media screen and(min-width: 1084px) {
     max-width: 1024px;
-    // background-color: orange;
   }
   @media screen and(min-width: 1920px) {
     max-width: 1860px;
-    // background-color: $red;
   }
 }
 .container-flex {
@@ -105,20 +98,22 @@ ul, nav {
 }
 .column {
   width: 100%;
-  @media screen and(min-width: 480px) {
+  padding: 10px;
+}
+.column-50 {
+  @media screen and(min-width: 768px) {
     width: 50%;
-    padding: 10px;  
-  }
-  @media screen and(min-width: 780px) {
-    width: 25%;
-    padding: 10px;  
   }
 }
-// .column-50 {
-//   @media screen and(min-width: 768px) {
-//     width: 47%;
-//   }
-// }
+.column-25 {
+  width: 100%;
+  @media screen and (min-width: 480px) {
+    width: 50%;
+  }
+  @media screen and (min-width: 768px) {
+    width: 25%;
+  }
+}
 .title {
   font-size: 2em;
 }

@@ -12,10 +12,10 @@
 }
 .is-full-height {
   min-height: 50vh;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   @media screen and (min-width: 768px) {
     min-height: 70vh;
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
   }  
 }
 .branding-logo {
@@ -50,6 +50,9 @@
   letter-spacing: 0.1em;
   > p {
     text-shadow: 0px 10px 10px #234D3C;
+    line-height: 1.2;
+    letter-spacing: 0.3em;
+    
   }
 }
 
@@ -58,6 +61,7 @@
   h2 {
     text-align: center;
     font-size: 2.2em;
+    margin-top: 30px;
   }
 }
 .gallery-img {
@@ -113,7 +117,42 @@
 .popup-open {
   display: block;
 }
-
+.contact {
+  .container-flex {
+    align-items: flex-start;
+  }
+  h2 {
+    text-align: center;
+  }
+  .contact-information {
+    @media screen and(min-width: 768px) {
+      border-right: 1px solid $lighterred;
+      border-bottom: none;
+    }
+  }
+  .formular {
+    padding: 10px;
+    padding-top: 0;
+  }
+  .formular-label,
+  .formular-input-txt,
+  .formular-textarea {
+    display: block;
+    width: 100%;
+  }
+  .formular-label {
+    display: block;
+    width: 100%;
+  }
+  .formular-input-txt {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .formular-btn {
+    display: block;
+    margin: 10px auto;
+  }
+}
 //footer
 .main-footer {
   // position: absolute;

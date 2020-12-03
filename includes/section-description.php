@@ -4,6 +4,8 @@
       <img src="build/assets/images/food1.jpg" alt="food1"> 
     </div>
     <div class="column column-50">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae autem quae non fugit impedit, esse minus, harum doloremque ratione voluptatum quis voluptas magni fugiat, neque consectetur soluta pariatur ad laboriosam!</p>
+      <p>Comida Criolla, Marina, Bebidas y más
+En el distrito de San Miguel existe un lugar donde la pasión y creatividad se reflejan en nuestras mejores obras culinarias, las que disfrutarás a la perfección en amplios ambientes creados especialmente para ti y tu familia, ideal para almuerzos de negocios, o una noche espectacular para disfrutar con tus amigos, todo con la calidez y cordialidad de la atención que usted se merece.
+TE ESPERAMOS.</p>
     </div> </div>
 </div>

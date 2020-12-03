@@ -22,14 +22,16 @@
       <?php include("includes/header.php");?>
     </section>
     <div class="section section-banner">
-      <div class="container">
-        <h2 class="title">Sobre Nosotros</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, cupiditate, iusto dolorum vero, esse delectus distinctio quasi quis nemo asperiores laborum voluptas nihil odit fugit laudantium vel quaerat dolorem nostrum.Maxime placeat quos eius necessitatibus laboriosam, quas amet non corrupti aperiam, ut vel dolores provident expedita soluta, quis assumenda omnis aspernatur eos impedit ab? Totam voluptatum repellat eum reiciendis vel?
-        </p>
+      <h2 class="title">Sobre Nosotros</h2>
+      <div class="container container-flex">
+        <div class="column column-50">
+          <p>El 8 de Enero del 2017 en el distrito de los Olivos se inaugura el Restaurante "Bahía", bajo el concepto de ofrecer los mejores platos de nuestra cocina peruana, excediendo las expectativas de nuestros clientes.</p>
+          <p>Desde nuestros inicios hasta hoy, seguimos manteniendo el alto compromiso de brindar un producto de calidad, respetando las tendencias de la gastronomía moderna, tratar a nuestros clientes bajo el concepto de calidez y profesionalismo en el servicio, sin dejar de lado la competitividad y amplia experiencia de nuestros cheffs; ideales que hoy en día nos han permitido ser reconocidos dentro de este rubro tan competitivo.</p>
+        </div>
+        <div class="column column-50">
+          <img src="build/assets/images/nosotros.jpg" alt="nosotros">
+        </div>
       </div>
-    </div>
-    <div class="our-team">
-      <h2>Nuestro Equipo</h2>
     </div>
     <?php include("includes/footer.php");?>
   </div>
