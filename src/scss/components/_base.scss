@@ -117,3 +117,10 @@ ul, nav {
 .title {
   font-size: 2em;
 }
+
+.alert {
+  position: relative; 
+}
+.alert-success {
+  $green: #28a745;
+}
