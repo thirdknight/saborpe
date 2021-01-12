@@ -122,5 +122,8 @@ ul, nav {
   position: relative; 
 }
 .alert-success {
-  $green: #28a745;
+  color: $green;
+}
+.alert-danger {
+  color: red;
 }

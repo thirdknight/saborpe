@@ -25,7 +25,7 @@
       <h2 class="title">Contáctenos</h2>
       <div class="container container-flex">
         <div class="contact-information  formular column column-50">
-          <?php 
+        <?php 
               $Msg = "";
               if(isset($_GET['error']))
               {
@@ -38,7 +38,7 @@
                   $Msg = " Su mensaje se envio con exito ";
                   echo '<div class="alert alert-success">'.$Msg.'</div>';
               }
-          ?>
+          ?>     
           <h3>Informacion de Contacto</h3>
           <p>Si desea más información sobre nuestras ofertas no dude en contactarnos por cualquiera de estos medios. Nuestro equipo estara encantado de responder sus preguntas.
           </p>
@@ -47,15 +47,14 @@
           <p><span class="icon-mail"></span>consultas@saborpe.com</p>
         </div>
         <form action="process.php" method="post" class="formular column column-50">
-              <label class="formular-label">Nombre:</label>
-              <input type="text" name="UName" placeholder="Usuario" class="formular-input-txt">
-              <label class="formular-label">Correo:</label>
-              <input type="email" name="Email" placeholder="Email" class="formular-input-txt" >
-              <label class="formular-label">Asunto:</label>
-              <input type="text" name="Subject" placeholder="Asunto" class="formular-input-txt"">
-              <textarea name="msg" cols="30" rows="10" class="formular-textarea" placeholder="Escribir mensaje"></textarea>
-              <input type="submit" class="btn formular-btn" name="btn-send" value="Enviar">
-              <!-- <button class="btn btn-success" name="btn-send"> Send </button> -->
+          <label class="formular-label">Nombre:</label>
+          <input type="text" name="UName" placeholder="Usuario" class="formular-input-txt">
+          <label class="formular-label">Correo:</label>
+          <input type="email" name="Email" placeholder="Email" class="formular-input-txt" >
+          <label class="formular-label">Asunto:</label>
+          <input type="text" name="Subject" placeholder="Asunto" class="formular-input-txt"">
+          <textarea name="msg" cols="30" rows="10" class="formular-textarea" placeholder="Escribir mensaje"></textarea>
+          <input type="submit" class="btn formular-btn" name="btn-send" value="Enviar">
         </form>
       </div>
     </section>
