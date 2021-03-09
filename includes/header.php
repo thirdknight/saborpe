@@ -4,7 +4,7 @@
   </div>
   <div class="main-header-body">
     <div class="container">
-      <div class="header-text"><p>La mejor comida casera está aqui</p></div>
+      <div class="header-text"><p>La mejor comida casera</br> está aqui</p></div>
     </div>
   </div>
 </header>

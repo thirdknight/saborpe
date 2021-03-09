@@ -21,7 +21,7 @@
     <section id="about" class="main-header hero is-full-height">
       <?php include("includes/header.php");?>
     </section>
-    <div class="section section-banner">
+    <div class="section section-banner about">
       <h2 class="title">Sobre Nosotros</h2>
       <div class="container container-flex">
         <div class="column column-50">
